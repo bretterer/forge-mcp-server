@@ -1,11 +1,11 @@
 {
   "name": "@bretterer/forge-mcp-server",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Laravel Forge MCP server for managing servers, sites, and deployments",
   "type": "module",
   "main": "dist/index.js",
   "bin": {
-    "forge-mcp-server": "dist/index.js"
+    "forge-mcp-server": "./dist/index.js"
   },
   "scripts": {
     "build": "tsc",
@@ -35,6 +35,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bretterer/forge-mcp-server.git"
+    "url": "git+https://github.com/bretterer/forge-mcp-server.git"
   }
 }
